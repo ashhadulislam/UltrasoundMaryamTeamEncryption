@@ -1,0 +1,114 @@
+
+conv weights: lr 0.005000, wd 0.000100	bn weights: lr 0.005000, wd 0.000010	relu weights: lr 0.005000, wd 0.000000
+=> loading checkpoint from ''
+no checkpoint loaded
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [00/10][01/81]	Time 37.093	Data 36.890	Loss 125393.8065 (avg:5224.7419)	lr 0.005000	
+Epoch: [00/10][11/81]	Time 11.197	Data 11.012	Loss 39329.8431 (avg:3993.4703)	lr 0.005000	
+Epoch: [00/10][21/81]	Time 11.065	Data 10.874	Loss 24040.5500 (avg:2767.2208)	lr 0.005000	
+Epoch: [00/10][31/81]	Time 10.892	Data 10.698	Loss 30365.7887 (avg:2235.0560)	lr 0.005000	
+Epoch: [00/10][41/81]	Time 10.918	Data 10.722	Loss 24512.5058 (avg:1901.5524)	lr 0.005000	
+Epoch: [00/10][51/81]	Time 10.591	Data 10.399	Loss 17917.6788 (avg:1700.5691)	lr 0.005000	
+Epoch: [00/10][61/81]	Time 11.103	Data 11.008	Loss 16011.2072 (avg:1573.1937)	lr 0.005000	
+Epoch: [00/10][71/81]	Time 13.070	Data 12.906	Loss 20231.8293 (avg:1482.5277)	lr 0.005000	
+Epoch: [00/10][81/81]	Time 11.329	Data 11.233	Loss 29743.4484 (avg:1398.9908)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [01/10][01/81]	Time 3.415	Data 3.221	Loss 18365.3591 (avg:765.2233)	lr 0.005000	
+Epoch: [01/10][11/81]	Time 3.186	Data 2.995	Loss 14557.7236 (avg:690.4416)	lr 0.005000	
+Epoch: [01/10][21/81]	Time 3.143	Data 2.955	Loss 13722.5909 (avg:680.3318)	lr 0.005000	
+Epoch: [01/10][31/81]	Time 3.176	Data 2.985	Loss 17413.1324 (avg:687.1950)	lr 0.005000	
+Epoch: [01/10][41/81]	Time 3.180	Data 2.987	Loss 11927.1978 (avg:672.5803)	lr 0.005000	
+Epoch: [01/10][51/81]	Time 3.167	Data 2.974	Loss 11558.2748 (avg:663.7661)	lr 0.005000	
+Epoch: [01/10][61/81]	Time 3.179	Data 2.987	Loss 14254.4597 (avg:653.3611)	lr 0.005000	
+Epoch: [01/10][71/81]	Time 3.172	Data 2.985	Loss 17652.8525 (avg:653.7815)	lr 0.005000	
+Epoch: [01/10][81/81]	Time 3.178	Data 2.983	Loss 31501.2285 (avg:672.0841)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [02/10][01/81]	Time 3.357	Data 3.173	Loss 12867.1556 (avg:536.1315)	lr 0.005000	
+Epoch: [02/10][11/81]	Time 3.168	Data 2.973	Loss 18222.1148 (avg:612.1553)	lr 0.005000	
+Epoch: [02/10][21/81]	Time 3.168	Data 2.976	Loss 12772.5388 (avg:615.9338)	lr 0.005000	
+Epoch: [02/10][31/81]	Time 3.180	Data 2.988	Loss 11830.8020 (avg:632.4883)	lr 0.005000	
+Epoch: [02/10][41/81]	Time 3.164	Data 2.972	Loss 14395.8446 (avg:628.2955)	lr 0.005000	
+Epoch: [02/10][51/81]	Time 3.174	Data 2.985	Loss 11579.2712 (avg:619.0462)	lr 0.005000	
+Epoch: [02/10][61/81]	Time 3.167	Data 2.975	Loss 10348.6498 (avg:613.1377)	lr 0.005000	
+Epoch: [02/10][71/81]	Time 3.177	Data 2.987	Loss 13898.9379 (avg:603.7895)	lr 0.005000	
+Epoch: [02/10][81/81]	Time 3.173	Data 2.979	Loss 9714.4258 (avg:601.4935)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [03/10][01/81]	Time 3.333	Data 3.143	Loss 14272.3904 (avg:594.6829)	lr 0.005000	
+Epoch: [03/10][11/81]	Time 3.181	Data 2.988	Loss 12645.1459 (avg:509.3668)	lr 0.005000	
+Epoch: [03/10][21/81]	Time 3.169	Data 2.976	Loss 10377.1198 (avg:518.3222)	lr 0.005000	
+Epoch: [03/10][31/81]	Time 3.177	Data 2.984	Loss 12171.9734 (avg:525.2765)	lr 0.005000	
+Epoch: [03/10][41/81]	Time 3.176	Data 2.985	Loss 8060.4651 (avg:512.2033)	lr 0.005000	
+Epoch: [03/10][51/81]	Time 3.169	Data 2.983	Loss 16130.3432 (avg:508.0952)	lr 0.005000	
+Epoch: [03/10][61/81]	Time 3.163	Data 2.972	Loss 11050.5774 (avg:511.4304)	lr 0.005000	
+Epoch: [03/10][71/81]	Time 3.153	Data 2.961	Loss 7668.5350 (avg:505.6693)	lr 0.005000	
+Epoch: [03/10][81/81]	Time 3.174	Data 2.982	Loss 10723.8716 (avg:501.8348)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [04/10][01/81]	Time 3.364	Data 3.176	Loss 9835.5759 (avg:409.8157)	lr 0.005000	
+Epoch: [04/10][11/81]	Time 3.170	Data 2.979	Loss 9909.7406 (avg:471.3536)	lr 0.005000	
+Epoch: [04/10][21/81]	Time 3.162	Data 2.975	Loss 12488.2391 (avg:479.0832)	lr 0.005000	
+Epoch: [04/10][31/81]	Time 3.159	Data 2.966	Loss 14541.8843 (avg:472.6350)	lr 0.005000	
+Epoch: [04/10][41/81]	Time 3.170	Data 2.980	Loss 11510.1405 (avg:471.6460)	lr 0.005000	
+Epoch: [04/10][51/81]	Time 3.170	Data 2.978	Loss 14010.0745 (avg:480.1231)	lr 0.005000	
+Epoch: [04/10][61/81]	Time 3.165	Data 2.972	Loss 13519.8327 (avg:481.2432)	lr 0.005000	
+Epoch: [04/10][71/81]	Time 3.169	Data 2.978	Loss 11143.2317 (avg:479.3419)	lr 0.005000	
+Epoch: [04/10][81/81]	Time 3.175	Data 2.983	Loss 12403.0561 (avg:488.0181)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [05/10][01/81]	Time 3.362	Data 3.171	Loss 10918.3372 (avg:454.9307)	lr 0.005000	
+Epoch: [05/10][11/81]	Time 3.169	Data 2.978	Loss 9821.6778 (avg:471.5051)	lr 0.005000	
+Epoch: [05/10][21/81]	Time 3.168	Data 2.974	Loss 8625.7797 (avg:455.6122)	lr 0.005000	
+Epoch: [05/10][31/81]	Time 3.169	Data 2.978	Loss 12131.7861 (avg:462.0967)	lr 0.005000	
+Epoch: [05/10][41/81]	Time 3.163	Data 2.971	Loss 14986.5926 (avg:460.2844)	lr 0.005000	
+Epoch: [05/10][51/81]	Time 3.176	Data 2.984	Loss 11041.1420 (avg:460.8172)	lr 0.005000	
+Epoch: [05/10][61/81]	Time 3.162	Data 2.969	Loss 7804.2242 (avg:458.5284)	lr 0.005000	
+Epoch: [05/10][71/81]	Time 3.179	Data 2.992	Loss 9191.2526 (avg:450.8275)	lr 0.005000	
+Epoch: [05/10][81/81]	Time 3.167	Data 2.975	Loss 10724.2229 (avg:456.3831)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [06/10][01/81]	Time 3.380	Data 3.191	Loss 10029.0473 (avg:417.8770)	lr 0.005000	
+Epoch: [06/10][11/81]	Time 3.165	Data 2.974	Loss 11170.9125 (avg:525.3098)	lr 0.005000	
+Epoch: [06/10][21/81]	Time 3.163	Data 2.971	Loss 15514.2455 (avg:504.3900)	lr 0.005000	
+Epoch: [06/10][31/81]	Time 3.178	Data 2.986	Loss 10870.1169 (avg:470.7910)	lr 0.005000	
+Epoch: [06/10][41/81]	Time 3.173	Data 2.981	Loss 16560.2080 (avg:474.8818)	lr 0.005000	
+Epoch: [06/10][51/81]	Time 3.169	Data 2.986	Loss 9226.8943 (avg:468.7450)	lr 0.005000	
+Epoch: [06/10][61/81]	Time 3.152	Data 2.961	Loss 9353.6757 (avg:469.1787)	lr 0.005000	
+Epoch: [06/10][71/81]	Time 3.161	Data 2.970	Loss 13010.8045 (avg:460.3369)	lr 0.005000	
+Epoch: [06/10][81/81]	Time 3.162	Data 2.972	Loss 12263.8191 (avg:460.7405)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [07/10][01/81]	Time 3.339	Data 3.147	Loss 9996.6404 (avg:416.5267)	lr 0.005000	
+Epoch: [07/10][11/81]	Time 3.163	Data 2.974	Loss 11944.6920 (avg:428.9553)	lr 0.005000	
+Epoch: [07/10][21/81]	Time 3.170	Data 2.979	Loss 9414.5968 (avg:460.7794)	lr 0.005000	
+Epoch: [07/10][31/81]	Time 3.146	Data 2.960	Loss 8336.9292 (avg:459.3607)	lr 0.005000	
+Epoch: [07/10][41/81]	Time 3.155	Data 2.969	Loss 10368.3038 (avg:451.9099)	lr 0.005000	
+Epoch: [07/10][51/81]	Time 3.168	Data 2.975	Loss 11415.7672 (avg:452.4567)	lr 0.005000	
+Epoch: [07/10][61/81]	Time 3.160	Data 2.970	Loss 8366.1187 (avg:443.0910)	lr 0.005000	
+Epoch: [07/10][71/81]	Time 3.155	Data 2.970	Loss 7797.7576 (avg:444.5056)	lr 0.005000	
+Epoch: [07/10][81/81]	Time 3.159	Data 2.965	Loss 9911.2645 (avg:442.8922)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [08/10][01/81]	Time 3.366	Data 3.178	Loss 11067.1120 (avg:461.1297)	lr 0.005000	
+Epoch: [08/10][11/81]	Time 3.154	Data 2.964	Loss 7998.7793 (avg:423.3645)	lr 0.005000	
+Epoch: [08/10][21/81]	Time 3.157	Data 2.965	Loss 12315.5636 (avg:431.7168)	lr 0.005000	
+Epoch: [08/10][31/81]	Time 3.159	Data 2.969	Loss 9038.5821 (avg:422.8967)	lr 0.005000	
+Epoch: [08/10][41/81]	Time 3.160	Data 2.968	Loss 10506.8413 (avg:415.5585)	lr 0.005000	
+Epoch: [08/10][51/81]	Time 3.159	Data 2.975	Loss 11734.9095 (avg:424.6818)	lr 0.005000	
+Epoch: [08/10][61/81]	Time 3.147	Data 2.954	Loss 7094.6448 (avg:426.7524)	lr 0.005000	
+Epoch: [08/10][71/81]	Time 3.160	Data 2.969	Loss 10148.4960 (avg:434.8693)	lr 0.005000	
+Epoch: [08/10][81/81]	Time 3.160	Data 2.971	Loss 9881.1621 (avg:447.7283)	lr 0.005000	
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664999542, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [09/10][01/81]	Time 3.339	Data 3.146	Loss 13504.4131 (avg:562.6839)	lr 0.005000	
+Epoch: [09/10][11/81]	Time 3.157	Data 2.966	Loss 17298.7646 (avg:524.8361)	lr 0.005000	
+Epoch: [09/10][21/81]	Time 3.165	Data 2.976	Loss 9204.8150 (avg:506.7362)	lr 0.005000	
+Epoch: [09/10][31/81]	Time 3.168	Data 2.977	Loss 11225.9587 (avg:495.5705)	lr 0.005000	
+Epoch: [09/10][41/81]	Time 3.172	Data 2.982	Loss 10873.5225 (avg:471.2549)	lr 0.005000	
+Epoch: [09/10][51/81]	Time 3.167	Data 2.975	Loss 8344.0907 (avg:463.9406)	lr 0.005000	
+Epoch: [09/10][61/81]	Time 3.162	Data 2.976	Loss 8652.1090 (avg:457.2092)	lr 0.005000	
+Epoch: [09/10][71/81]	Time 3.155	Data 2.966	Loss 12096.8030 (avg:456.3713)	lr 0.005000	
+Epoch: [09/10][81/81]	Time 3.164	Data 2.978	Loss 11029.6134 (avg:449.9841)	lr 0.005000	

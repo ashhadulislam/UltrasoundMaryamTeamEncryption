@@ -1,0 +1,46 @@
+train
+python main.py --model pidinet --config carv4 --sa --dil --resume --iter-size 24 -j 4 --gpu 0 --epochs 20 --lr 0.005 --lr-type multistep --lr-steps 10-16 --wd 1e-4 --savedir ./data/table5_pidinet --datadir ./data/BSDS500 --dataset BSDS
+
+
+test
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_pidinet --datadir ./data/BSDS500 --dataset BSDS --evaluate ./data/table5_pidinet/save_models/checkpoint_014.pth --evaluate-converted
+
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_pidinetBSDSCubs --datadir ./data/BSDS500 --dataset BSDS --evaluate ./data/table5_pidinetBSDSCubs/save_models/checkpoint_014.pth --evaluate-converted
+
+
+
+
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_pidinetBSDSCubs --datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_pidinetBSDSCubs/save_models/checkpoint_056.pth --evaluate-converted
+python main.py --model pidinet --config carv4 --sa --dil --resume --iter-size 24 -j 4 --gpu 0 --epochs 60 --lr 0.005 --lr-type multistep --lr-steps 10-16 --wd 1e-4 --savedir ./data/table5_pidinetBSDSCubs --datadir ./data/BSDS500cubs --dataset BSDS
+
+
+
+
+
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_our--datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_our/save_models/checkpoint_008.pth --evaluate-converted
+
+
+
+
+
+gggggggggggggggggggggggggggggggg
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_our --datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_our/save_models/checkpoint_007.pth --evaluate-converted
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil -j 4 --gpu 0 --savedir ./data/table5_our --datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_our/save_models/checkpoint_007_.pth --evaluate-converted
+
+
+
+python main.py --model pidinet_converted --config carv4 --sa --dil  --savedir ./data/table5_our --datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_our/save_models/checkpoint_007_.pth --evaluate-converted
+
+
+python only_eval.py --model pidinet_converted --config carv4 --sa --dil  --savedir ./data/table5_our --datadir ./data/BSDS500cubs --dataset BSDS --evaluate ./data/table5_our/save_models/checkpoint_007_.pth --evaluate-converted
+

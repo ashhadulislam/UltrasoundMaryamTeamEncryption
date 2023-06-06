@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+
+    <div class="container">
+      <h2>Patient Upload Ultrasound</h2>
+      <form method="post"  enctype="multipart/form-data" >
+        <div class="form-group">
+          <label for="title">First Name</label>
+            <input type="text" class="form-control" name="first_name"
+                   placeholder="First Name">
+            </input>
+        </div>
+
+
+        <div class="form-group">
+          <label for="author">Last Name</label>
+            <input type="text" class="form-control" name="last_name"
+                   placeholder="Last Name">
+            </input>
+        </div>
+
+        <div class="form-group">
+          <label for="author">Age</label>
+            <input type="text" class="form-control" name="age"
+                   placeholder="Age in years">
+            </input>
+        </div>
+
+
+        <div class="form-group">
+          <label for="tel_num">Phone Number</label>
+            <input type="text" class="form-control" name="tel_num"
+                   placeholder="Without +974">
+            </input>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Doctors Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your doctors email" name="dremail">
+        </div>
+
+        <!-- <div class="form-group">
+          <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob"
+                   placeholder="YYYY-MM-DD">
+            </input>
+        </div> -->
+
+        <div class="form-group">
+          <label for="avatar">Upload Scan Image:</label>
+            <input type="file" class="form-control" 
+                   id="avatar" name="avatar"
+                   accept="image/png, image/jpeg">
+        </div>
+
+
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+
+
+
+{% endblock %}

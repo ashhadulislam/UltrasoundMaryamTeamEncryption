@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- <h1>{% block title %} Processed Image {% endblock %}</h1> -->
+    {% for person in persons %}
+        <div class='person'>
+            <h3>Name:{{ person[0] }} {{ person[1] }} </h3>
+            <i><p>Phone:{{ person[2] }} </p></i>
+            <i><p>DOB:{{ person[3] }} </p></i>
+            <i><p>QID:{{ person[4] }} </p></i> 
+            <i><p>Face Encoding hidden</p></i> 
+
+            <!-- <i><p>Added {{ person[5] }}</p></i> -->
+        </div>
+    {% endfor %}
+    
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>{{user_data.first_name}}'s USG Result</h3>
+          <img class="img-thumbnail" src = "{{ url_for('static', filename=user_data.part_filename)}}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+          <h3>Measures</h3>
+          <p>Thickness: {{user_data.thickness}}</p>
+          <p>Status:{{user_data.normality}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+          <h3>Next Steps</h3>        
+          <p>Your USG results have been shared with your doctor {{user_data.dremail}}</p>
+          <p>You will get a call from your doctor if needed.</p>
+        </div>
+      </div>
+    </div>
+
+   
+{% endblock %}

@@ -1,0 +1,2 @@
+=> loading checkpoint from './data/table5_our/save_models/checkpoint_007_.pth'
+=> loaded checkpoint './data/table5_our/save_models/checkpoint_007_.pth' successfully

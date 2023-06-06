@@ -1,0 +1,7 @@
+
+conv weights: lr 0.005000, wd 0.000100	bn weights: lr 0.005000, wd 0.000010	relu weights: lr 0.005000, wd 0.000000
+=> loading checkpoint from ''
+no checkpoint loaded
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='/gdrive/MyDrive/cartoid/pidinet-master/data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=10, eta=0.3, evaluate=None, evaluate_converted=False, gpu='0', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=[10, 16], lr_type='multistep', model='pidinet', only_bsds=False, opt='adam', print_freq=10, resume=True, sa=True, save_freq=1, savedir='./data/table5_our', seed=1664972221, start_epoch=0, use_cuda=True, wd=0.0001, workers=4)
+Epoch: [00/10][01/81]	Time 37.329	Data 37.203	Loss 138986.9602 (avg:5791.1233)	lr 0.005000	

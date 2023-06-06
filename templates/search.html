@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Search for existing person {% endblock %}</h1>
+    <form method="post"  enctype="multipart/form-data" >
+        <p>
+            <label for="title">First Name</label>
+            <input type="text" name="first_name"
+                   placeholder="First Name">
+            </input>
+        </p>
+
+        <p>
+            <label for="author">Last Name</label>
+            <input type="text" name="last_name"
+                   placeholder="Last Name">
+            </input>
+        </p>
+
+        <p>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob"
+                   placeholder="YYYY-MM-DD">
+            </input>        
+        </p>
+        </p>
+        <h1><label for="QID">OR</label><h1></h1>
+         <p>
+         <p>
+            <label for="QID">QID</label>
+            <input type="text" name="QID"
+                   placeholder="Enter QID">
+            </input>
+        </p>
+       
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+{% endblock %}

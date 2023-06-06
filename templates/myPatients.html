@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- <h1>{% block title %} Processed Image {% endblock %}</h1> -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+          <h2>
+           Welcome <strong>Dr. {{page_details.doc_name}}</strong>
+        </h2>
+        <h3>
+          Below are the patients under your care
+        </h3>
+        </div>
+      </div>
+</div>
+  {% for patient in page_details.all_my_patients_details %}    
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+          <img class="img-thumbnail" src = "{{ url_for('static', filename=patient.file_location)}}">
+        </div>
+        <div class="col-sm-4">
+
+          <h3><strong>{{patient.first_name}} {{patient.last_name}}</strong></h3>
+          
+          <p>Age: <strong>{{patient.age}}</strong></p>
+          <p>Telephone: <strong>{{patient.tel_num}}</strong></p>
+          <p>Status: <strong>{{patient.normality}}</strong></p>
+        </div>
+
+    </div>
+  </div>
+
+  {% endfor %}
+
+    
+
+
+   
+{% endblock %}

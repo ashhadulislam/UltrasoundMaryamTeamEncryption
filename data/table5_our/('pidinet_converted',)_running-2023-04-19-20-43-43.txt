@@ -1,0 +1,9 @@
+
+<__main__.Args object at 0x7fc539fef810>
+
+Begin to eval...
+Img generated in ./data/table5_our/eval_results/imgs_epoch_007
+
+Running test [1/1]
+
+Done

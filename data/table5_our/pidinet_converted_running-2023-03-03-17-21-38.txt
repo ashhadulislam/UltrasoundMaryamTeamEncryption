@@ -1,0 +1,13 @@
+
+conv weights: lr 0.005000, wd 0.000100	bn weights: lr 0.005000, wd 0.000010	relu weights: lr 0.005000, wd 0.000000
+=> loading checkpoint from './data/table5_our/save_models/checkpoint_007_.pth'
+=> loaded checkpoint './data/table5_our/save_models/checkpoint_007_.pth' successfully
+
+Namespace(ablation=False, checkinfo=False, config='carv4', datadir='./data/BSDS500cubs', dataset=['BSDS'], dil=True, epochs=20, eta=0.3, evaluate='./data/table5_our/save_models/checkpoint_007_.pth', evaluate_converted=True, gpu='', iter_size=24, lmbda=1.1, lr=0.005, lr_steps=None, lr_type='multistep', model='pidinet_converted', only_bsds=False, opt='adam', print_freq=10, resume=False, sa=True, save_freq=1, savedir='./data/table5_our', seed=1677853298, start_epoch=8, use_cuda=False, wd=0.0001, workers=4)
+
+Begin to eval...
+Img generated in ./data/table5_our/eval_results/imgs_epoch_007
+
+Running test [1/1]
+
+Done
